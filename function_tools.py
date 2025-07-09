@@ -66,8 +66,13 @@ HUIJU_SEARCH = {
         "description": "查询人民币与外币兑换的汇率信息，单位为100外币",
         "parameters": {
             "type": "object",
-            "properties": {},
-            "required": []
+            "properties": {
+                "query": {
+                    "description": "汇率查询参数，如货币类型等",
+                    "type": "string"
+                }
+            },
+            "required": ["query"]
         }
     }
 }

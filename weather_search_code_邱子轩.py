@@ -1,18 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-智能天气查询助手 - Gradio Web界面
-
-本模块提供基于Gradio的Web界面，用户可以通过友好的界面查询天气信息。
-支持多种AI模型（OpenAI GPT、智谱AI GLM）和工具调用功能。
-
-主要功能：
-- 天气信息查询（温度、湿度、空气质量等）
-- 生活建议（穿衣、健康、出行建议）
-- 多模型支持（OpenAI、智谱AI）
-- 可调节的AI响应温度参数
-
-"""
-
 import gradio as gr  # Gradio Web界面框架
 import os  # 操作系统接口，用于环境变量访问
 from dotenv import load_dotenv, find_dotenv  # 环境变量加载工具
